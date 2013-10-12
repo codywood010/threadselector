@@ -11,9 +11,11 @@ var data = {
         ["So Fine #50, The Bottom Line", "http://www.superiorthreads.com/shop/category/so-fine/description/"],
       "I want the thread to be visible": {
         "Solid Colors":
-          ["Highlights, Brytes, Nature Colors, Living Colors, Super Brights, Art Studio Colors, So Fine #30, Omni", "http://www.superiorthreads.com/superior-quilting-threads/"],
+          ["Highlights, Brytes, Nature Colors, Living Colors, Super Brights, Art Studio Colors, So Fine #30, Omni, Magnifico", "http://www.superiorthreads.com/superior-quilting-threads/"],
         "Variegated Colors":
-          ["Rainbows, Poly Quilter, LAVA, So Fine #40", "http://www.superiorthreads.com/superior-quilting-threads/"],
+          ["Fantastico, Rainbows, Poly Quilter, LAVA, So Fine #40", "http://www.superiorthreads.com/superior-quilting-threads/"],
+          "Twisted Colors":
+          ["Twist", "http://www.superiorthreads.com/superior-quilting-threads/"],
       }
     },
     "Silk":
@@ -54,14 +56,12 @@ var data = {
       "Rayon":
         ["Not recommended. Most rayon is weak and not colorfast.", "http://www.superiorthreads.com/embroidery-threads/"],
       "Polyester":
-        ["Rainbows, Highlights, Nature Colors, Art Studio Colors, Living Colors, Super Brights, So Fine #40", "http://www.superiorthreads.com/embroidery-threads/"],
+        ["Magnifco, Fantastico, Twist, Rainbows, Nature Color, Art Studio Colors, Living Colors, So Fine #40", "http://www.superiorthreads.com/embroidery-threads/"],
       "Metallic":
         ["Glitter, Superior Metallic", "http://www.superiorthreads.com/embroidery-threads/"]
     },
     "Matte Finish":
       ["So Fine #40, So Fine #50, King Tut", "http://www.superiorthreads.com/embroidery-threads/"],
-    "Fine Cotton":
-      ["MasterPiece", "http://www.superiorthreads.com/embroidery-threads/"],
     "Heavier/30 wt.":
       ["New Brytes, So Fine #30, Lava", "http://www.superiorthreads.com/embroidery-threads/"],
     "Glow-in-the-Dark":
@@ -81,22 +81,50 @@ var data = {
   },
   "Piecing": {
     "Cotton":
-      ["MasterPiece", "http://www.superiorthreads.com/shop/category/masterpiece/description/"],
+      ["MasterPiece", "http://www.superiorthreads.com/product/brand/masterpiece/"],
     "Polyester":
-      ["We recommend cotton for piecing to acommodate high-temperature ironing. If you prefer polyester, use So Fine #50", "http://www.superiorthreads.com/shop/category/so-fine/description/"]
+      ["We recommend cotton for piecing to acommodate high-temperature ironing. If you prefer polyester, use So Fine #50", "http://www.superiorthreads.com/product/brand/so-fine-50/"]
   },
-  "Clothing Construction":
-    ["So Fine #50, The Bottom Line", "http://www.superiorthreads.com/sewing-threads/"],
+
+"Apparel/Clothing Construction": {
+    "Polyester": 
+        ["Tailor Made, ProLock, Polyarn, OMNI", "http://www.superiorthreads.com/choose-the-right-thread-for-apparel/"],
+    "Silk":
+      ["Kimono Silk #100", "http://www.superiorthreads.com/product/brand/kimono-silk/"],
+    "Overlock/Serger Thread":
+      ["ProLock", "http://www.superiorthreads.com/product/Brand/prolock/"],  
+  },
   "Serger": {
     "Decorative":
       ["King Tut, Rainbows, New Brytes, Highlights, Art Studio Colors, Nature Colors, Living Colors, LAVA, Superior Metallics, Glitter, Halo, Razzle Dazzle, So Fine #30, So Fine #40", "http://www.superiorthreads.com/serger-threads/"],
-    "Non-Decorative":
-      ["Omni, So Fine #50, The Bottom Line", "http://www.superiorthreads.com/shop/category/omni/description/"],
+    "Needle Thread for Serger":
+      ["Tailor Made, OMNI, So Fine! #50", "http://www.superiorthreads.com/shop/category/polyarn/description/"],
     "For Fleece and Knits":
-      ["Polyarn", "http://www.superiorthreads.com/shop/category/polyarn/description/"]
+      ["ProLock, Polyarn ", "http://www.superiorthreads.com/product/Brand/prolock/"]
   },
   "Couching and Bobbin Work":
-    ["Halo, Razzle Dazzle, Silk Ribbon", "http://www.superiorthreads.com/shop/category/halo/description/"]
+    ["Halo, Razzle Dazzle, Silk Ribbon", "http://www.superiorthreads.com/shop/category/halo/description/"],
+    
+      "Specialty Threads": {
+    "Fusible Thread":
+      ["Charlotte’s Fusible Web", "http://www.superiorthreads.com/product/Brand/charlottes-fusible-web/"],
+    "Water Soluble Thread":
+      ["Vanish, Vanish-Extra", "http://www.superiorthreads.com/product/Brand/vanish-extra/"],
+    "Conductive Thread":
+      ["Superior Conductive Thread", "http://www.superiorthreads.com/product/brand/conductive-thread/"],
+    "Kevlar":
+      ["Kevlar", "http://www.superiorthreads.com/shop/category/?q=kevlar"]
+  },
+
+  "Upholstery Threads": {
+    "Bonded Nylon":
+      ["Superior Bonded Nylon", "http://www.superiorthreads.com/product/brand/bonded-nylon/"],
+    "Bonded Polyester":
+      ["Solar Guard Bonded Polyester", "http://www.superiorthreads.com/product/brand/solar-guard/"]
+  },
+
+    
+    
 };
 
 var selections = [];
