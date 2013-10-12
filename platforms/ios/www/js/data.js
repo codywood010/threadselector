@@ -13,7 +13,7 @@ var data = {
     "Invisible Machine Appliqué":
       ["#100 Kimono Silk, The Bottom Line, MonoPoly", "http://www.superiorthreads.com/shop/category/bottom-line/description/"],
     "Decorative Machine Appliqué":
-      ["King Tut, Rainbows, New Brytes, Highlights, Art Studio Colors, #30 Silk, Nature Colors, Living Colors, LAVA, Superior Metallics, Glitter, So Fine #40, So Fine #30", "http://www.superiorthreads.com/embroidery-threads/"],
+      ["King Tut, Rainbows, #30 Silk, Nature Colors, Living Colors, LAVA, Superior Metallics, Glitter, So Fine #40, So Fine #30", "http://www.superiorthreads.com/embroidery-threads/"],
     "Hand Appliqué":
       ["The Bottom Line, #100 Kimono Silk, #50 Silk, MasterPiece, So Fine #50", "http://www.superiorthreads.com/shop/category/kimono-100-silk-thread/description/"],
     "Fusible Appliqué":
@@ -41,7 +41,7 @@ var data = {
       "50 wt.":
         ["So Fine #50", "http://www.superiorthreads.com/shop/category/so-fine/description/"],
       "40 wt.":
-        ["Highlights, Art Studio Colors, Nature Colors, Living Colors", "http://www.superiorthreads.com/embroidery-threads/"]
+        ["Nature Colors, Living Colors", "http://www.superiorthreads.com/embroidery-threads/"]
     }
   },
   
@@ -54,14 +54,14 @@ var data = {
       "Rayon":
         ["Not recommended. Most rayon is weak and not colorfast.", "http://www.superiorthreads.com/embroidery-threads/"],
       "Polyester":
-        ["Magnifco, Fantastico, Twist, Rainbows, Nature Color, Art Studio Colors, Living Colors, So Fine #40", "http://www.superiorthreads.com/embroidery-threads/"],
+        ["Magnifco, Fantastico, Twist, Rainbows, Nature Color, Living Colors, So Fine #40", "http://www.superiorthreads.com/embroidery-threads/"],
       "Metallic":
         ["Glitter, Superior Metallic", "http://www.superiorthreads.com/embroidery-threads/"]
     },
     "Matte Finish":
       ["So Fine #40, So Fine #50, King Tut", "http://www.superiorthreads.com/embroidery-threads/"],
     "Heavier/30 wt.":
-      ["New Brytes, So Fine #30, Lava", "http://www.superiorthreads.com/embroidery-threads/"],
+      ["So Fine #30, Lava", "http://www.superiorthreads.com/embroidery-threads/"],
     "Glow-in-the-Dark":
       ["NiteLite ExtraGlow", "http://www.superiorthreads.com/embroidery-threads/"],
     "Metallic":
@@ -87,7 +87,7 @@ var data = {
         ["So Fine #50, The Bottom Line", "http://www.superiorthreads.com/shop/category/so-fine/description/"],
       "I want the thread to be visible": {
         "Solid Colors":
-          ["Highlights, Brytes, Nature Colors, Living Colors, Super Brights, Art Studio Colors, So Fine #30, Omni, Magnifico", "http://www.superiorthreads.com/superior-quilting-threads/"],
+          ["Nature Colors, Living Colors, Super Brights, So Fine #30, Omni, Magnifico", "http://www.superiorthreads.com/superior-quilting-threads/"],
         "Variegated Colors":
           ["Fantastico, Rainbows, Poly Quilter, LAVA, So Fine #40", "http://www.superiorthreads.com/superior-quilting-threads/"],
           "Twisted Colors":
@@ -106,7 +106,7 @@ var data = {
   
   "Serger": {
     "Decorative":
-      ["King Tut, Rainbows, New Brytes, Highlights, Art Studio Colors, Nature Colors, Living Colors, LAVA, Superior Metallics, Glitter, Halo, Razzle Dazzle, So Fine #30, So Fine #40", "http://www.superiorthreads.com/serger-threads/"],
+      ["King Tut, Rainbows, Nature Colors, Living Colors, LAVA, Superior Metallics, Glitter, Halo, Razzle Dazzle, So Fine #30, So Fine #40", "http://www.superiorthreads.com/serger-threads/"],
     "Needle Thread for Serger":
       ["Tailor Made, OMNI, So Fine! #50", "http://www.superiorthreads.com/shop/category/polyarn/description/"],
     "For Fleece and Knits":
