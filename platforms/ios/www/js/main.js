@@ -10,7 +10,7 @@ function showStartPage() {
   html = "<div class='start-page-txt'>"
   html += "<p>Welcome to our Thread Selection App</p><br />"
   html += "<p>Here you will find an in-depth guide to choosing thread for specific applications.</p>";
-  html += "<br /><a class='small_button' onclick='makeSelection()'>Let's Get Started!</a>";
+  html += "<br /><center><a class='small_button' onclick='makeSelection()'>Let's Get Started!</a></center>";
   html += "</div>";
   
   $("#page").html(html);
