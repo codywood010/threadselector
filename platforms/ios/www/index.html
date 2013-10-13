@@ -6,8 +6,14 @@
     <title>PhoneGap</title>
       <link rel="stylesheet" type="text/css" href="css/main.css" />
       <script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
+      <script type="text/javascript" src="js/jquery.retina.js"></script>
       <script type="text/javascript" src="js/data.js"></script>
       <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function() {
+          $('img').retina('@2x');
+      });
+    </script>
   </head>
   <body onLoad="showStartPage()">
   <div id="top"><img src="img/top.jpg" /></div>
