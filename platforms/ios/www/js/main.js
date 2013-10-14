@@ -50,7 +50,7 @@ function goBack() {
 }
 
 function loadPage(url) {
-    return window.location=url;
+    return window.open (url, '_system');
 }
 
 function display(data, result) {

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.superiorthreads.howmuchthread" version="3.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>HowMuchThread</name>
+<widget id="com.superiorthreads.threadselector" version="3.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>ThreadSelector</name>
     <description>
         App created by Superior Threads to measure amounts of thread needed for projects. 
     </description>
