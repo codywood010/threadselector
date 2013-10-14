@@ -1,31 +1,50 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
-    <!--<meta name="viewport" content="width=320; user-scalable=no" />-->
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>PhoneGap</title>
-      <link rel="stylesheet" type="text/css" href="css/main.css" />
-      <script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
-      <script type="text/javascript" src="js/jquery.retina.js"></script>
-      <script type="text/javascript" src="js/data.js"></script>
-      <script type="text/javascript" src="js/main.js"></script>
-      <script type="text/javascript">
-      $(document).ready(function() {
-          $('img').retina('@2x');
-      });
+    <title>InAppBrowser.removeEventListener Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Global InAppBrowser reference
+    var iabRef = null;
+
+    function iabLoadStart(event) {
+        alert(event.type + ' - ' + event.url);
+    }
+
+    function iabLoadStop(event) {
+        alert(event.type + ' - ' + event.url);
+    }
+
+    function iabLoadError(event) {
+        alert(event.type + ' - ' + event.message);
+    }
+
+    function iabClose(event) {
+         alert(event.type);
+         iabRef.removeEventListener('loadstart', iabLoadStart);
+         iabRef.removeEventListener('loadstop', iabLoadStop);
+         iabRef.removeEventListener('loaderror', iabLoadError);
+         iabRef.removeEventListener('exit', iabClose);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+         iabRef = window.open('http://superiorthreads.com', '_blank', 'location=yes');
+         iabRef.addEventListener('loadstart', iabLoadStart);
+         iabRef.addEventListener('loadstop', iabLoadStop);
+         iabRef.removeEventListener('loaderror', iabLoadError);
+         iabRef.addEventListener('exit', iabClose);
+    }
+
     </script>
   </head>
-  <body onLoad="showStartPage();onDeviceReady();">
-  <div id="top"><img src="img/top.jpg" height="100px"/></div>
-  <div id="pages">
-    <div id="page"></div>
-  </div>
-  <div id="bottom">
-    <div class='back_buttons'>
-      <a class="small_button" href="#" onClick='goBack();'>Back</a>
-      <a class="small_button" href="#" onClick='startOver();'>Start Over</a>
-    </div>
-    <div id="copyright">&copy; 2013 Superior Threads&#8482;, All Rights Reserved.</div>
-  </div>
+  <body>
   </body>
 </html>
