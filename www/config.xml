@@ -2,12 +2,15 @@
 <widget id="com.superiorthreads.threadselector" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>ThreadSelector</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+         App created by Superior Threads to properly choose correct thread for projects. 
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author href="http://superiorthreads.com">
+        Superior Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
@@ -47,6 +50,6 @@
     <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
-    <access origin="http://127.0.0.1*" />
+    <access origin="*.superiorthreads.*" />
     <content src="index.html" />
 </widget>
